@@ -1,0 +1,6 @@
+[1ere page]
+
+- Logo haut a gauche
+- "Artiste
+- vert en haut (nav bar) beige en bas (footer)
+- Nav bar: Acceuil, Galerie, Contact
