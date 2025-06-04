@@ -4,3 +4,9 @@
 - "Artiste
 - vert en haut (nav bar) beige en bas (footer)
 - Nav bar: Acceuil, Galerie, Contact
+
+sites:
+https://www.venosa.ca/
+https://wonderhome.art/
+https://domeco.ca/
+https://www.veniluxquebec.ca/
