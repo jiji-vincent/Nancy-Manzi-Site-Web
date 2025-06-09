@@ -122,6 +122,18 @@ RGB: rgba(95,111,84,255) */
     font-family: "Poppins", sans-serif;
 }
 
+section {
+  width: 100%;
+  background-color: beige;
+  padding: 60px 20px; /* adjust for visual spacing */
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* LOGO */
 
 /* img {
@@ -191,7 +203,6 @@ nav ul {
 }
 
 nav li {
-    /* display: inline; */
     padding: 8px;
 }
 
@@ -283,7 +294,7 @@ nav li {
   width: 100%;
   max-height: 3000px;
   object-fit: cover;
-  object-position: center top; /* Crop top first */
+  object-position: center -3px; /* Crop top first */
   display: block;
   margin: 0;
   padding: 0;
@@ -300,25 +311,235 @@ nav li {
 
 .overlay-logo {
   position: absolute;
-  top: 230px; /* adjust vertically */
+  top: 500px; /* adjust vertically */
   left: 50%;
   transform: translateX(-50%);
   height: 200px; /* or whatever size looks good */
   z-index: 3;
 }
 
+.quote {
+    color: beige;
+    position: absolute;
+    top: 730px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    height: 200px;
+    z-index: 3;
+    font-size: 25px;
+    font-style: italic;
+}
+
 /* HEADER SECTION */
 
 .hero {
     background-color: beige;
-    padding-top: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
 }
 
 /* ABOUT SECTION */
 
+#about {
+  background-color: beige;
+  width: 100%;
+}
+
+#about-img-1 {
+    height: 500px;
+}
+
+#about-img-2 {
+    height: 500px;
+}
+
+#about a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.about h1, .about h2 {
+    margin-bottom: 10px;
+}
+
+.about .citation {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    color: #5f6f54;
+    margin-top: 70px;
+}
+
+.about-text {
+    /* margin: 20px 0 90px 0; */
+    line-height: 1.8;
+    color: black;
+}
+
+.about {
+    max-width: 1920px;
+    margin: 0;
+    padding: auto 0 0 0;
+    /* margin: auto;
+    padding: auto; */
+    text-align: center;
+    background-color: beige;
+}
+
+.about-paragraphs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-text {
+  flex: 1 1 250px; /* Grow and shrink, min 250px wide */
+  max-width: 500px;
+  line-height: 1.6;
+  color:black;
+  text-align: left;
+}
+
+/* Vertical image layout */
+
+/* .about img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+} */
+
+/* Side-by-side image layout if wanted */
+.about-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* "Observez Notre Travail" styling */
+.about a.cta {
+  display: inline-block;
+  margin-top: 30px;
+  background-color:rgba(95, 111, 84, 0.5);
+  color: beige;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.about a.cta:hover {
+  background-color: rgb(95, 111, 84);
+}
+
 /* SERVICES SECTION */
 
+.services {
+    padding-bottom: 20px;
+    background-color: beige;
+    padding-top: 30px;
+}
+
+#services {
+    text-align: center;
+}
+
+/* PORTFOLIO-GALERIE SECTION */
+
+.portfolio {
+    background-color: beige;
+    padding-top: 10px;
+}
+
+#portfolio h1 {
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 500px;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+@keyframes fade {
+    from {opacity: .5;}
+    to {opacity: 1;}
+}
+
+/* GALLERY */
+
+.container {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
 /* CONTACT SECTION */
+
+.contact {
+    background-color: rgba(245, 245, 220, 0.5);
+}
 
 #contact {
     height: 50vh;
@@ -392,9 +613,8 @@ form button:hover {
 /* FOOTER SECTION */
 
 footer {
-    background-color: beige;
+    background-color: rgba(95, 111, 84, 0.5); /* semi-transparent green set last num to 255 otherwise */
     text-align: center;
     font-size: 17px;
+    padding: 20px 0 20px 0;
 }
-
-/* MOBILE DEVICES */

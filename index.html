@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nancy Manzi | Portfolio</title>
+    <title>Manzixinos</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.JPEG">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
@@ -44,24 +45,28 @@
             </div>
     </nav>
     <div>
-        <img src="./images/main(copy).jpg" class="main-picture" alt="Main Image">
+        <img src="./images/hero picture.JPEG" class="main-picture" alt="Main Image">
         <img src="./images/instagram profile picture.jpg" class="overlay-logo" alt="Logo">
+        <p class="quote">Transforme les espaces avec précision professionnelle.</p>
     </div>
-    <!-- <img src="./images/image1.jpg" class="main-background" id=""></img> -->
-    <header class="hero">
-        <h1>Nancy Manzi</h1>
-        <p>Artisane Peintre à la chaux</p>
-        <p>Transforme les espaces avec précision professionnelle.</p>
-        <a href="#portfolio" class="cta">Observez Mon Travail</a>
-    </header>
     <section id="about" class="about">
-        <h2>À Propos De Nous</h2>
-        <img src="" class="about-img">
-        <p>Je suis une artiste peintre professionnelle avec plus de _ ans d'experience a transformer les endroits résidentiels. Je suis passionnée d'aider les clients a créer des environements propres et inspirants pour leur chez-eux.</p>
+        <h1>À Propos</h1>
+        <h2>De Nous</h2>
+        <p class="citation" alt="Présentation">Chez nous, chaque mur a une âme.</p>
+        <div class="about-paragraphs">
+            <p class="about-text" alt="Présentation">Passionnées par les matières brutes et les finitions naturelles, nous avons choisi la peinture à la chaux pour sa beauté vivante, sa profondeur organique et son respect de l'environnement. Cette matière ancienne nous permet de créer des décors uniques entre tradition et modernité.</p>
+            <p class="about-text" alt="Présentation">Chaque projet est une rencontre:<br>avec une lieu, une lumière, une histoire à révéler. Nous travaillons avec soin, dans le respect du geste artisanal, pour transformer vos espaces en lieux qui respirent où l'on se sent bien, aligné, inspiré.</p>
+            <p class="about-text" alt="Présentation">Parce que la simplicité est un luxe et que la nature sait toujours mieux faire.</p>
+        </div>
+        <div class="about-images">
+            <img src="./images/about-img-1.jpg" class="about-img-1" id="about-img-1" alt="Nancy Manzi">
+            <img src="./images/about-img-2.jpg" class="about-img-2" id="about-img-2">
+        </div>
+        <br>
+        <a href="#portfolio" class="cta" style="text-align: center;">Observez Notre Travail</a>
     </section>
-    <section id="services" class="services"></section>
-    <section id="portfolio" class="portfolio">
-        <h2>Services</h2>
+    <section id="services" class="services">
+        <h1>Nos Services</h1>
         <ul class="services-list">
             <li>Peinture de bureau</li>
             <li>Intérieurs commerciaux</li>
@@ -69,17 +74,67 @@
             <li>Consultations Couleur(s)</li>
         </ul>
     </section>
+    <section id="portfolio" class="portfolio">
+        <h1>Galerie</h1>
+        <div class="container">
+            <div class="photo-gallery">
+                <div class="column">
+                    <div class="photo">
+                        <img src="./images/image1.jpg">
+                    </div>
+                    <div class="photo">
+                        <img src="./images/image2.JPG">
+                    </div>
+                    <div class="photo">
+                        <img src="./images/image3.jpg">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="./images/image4.jpeg">
+                    </div>
+                    <div class="photo">
+                        <img src="./images/image5.jpeg">
+                    </div>
+                    <div class="photo">
+                        <img src="./images/image6.jpg">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="./images/image7.jpg">
+                    </div>
+                    <div class="photo">
+                        <img src="./images/image8.jpg">
+                    </div>
+                    <div class="photo">
+                        <img src="./images/image9.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="slider">
+            <div class="slides">
+                <img class="slide" src="./images/image1.jpg" alt="Slider Image #1">
+                <img class="slide" src="./images/image2.JPG" alt="Slider Image #2">
+                <img class="slide" src="./images/image3.jpg" alt="Slider Image #3">
+                <img class="slide" src="" alt="Slider Image #4">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div> -->
+    </section>
     <section id="contact" class="contact">
-        <h2 class="contact-title">Contactez Moi</h2>
+        <h1 class="contact-title">Contactez Nous</h1>
         <form id="contact-form">
             <input type="text" placeholder="Votre Nom" required>
-            <input type="email" placeholder="Votre Email" required>
+            <input type="email" placeholder="Votre Courriel" required>
             <textarea placeholder="Votre Message" required></textarea>
             <button type="submit" value="Submit">Envoyer Message</button> 
         </form>
     </section>
     <footer>
-        <p>&copy; 2025 Textures par Manzinos. Tous droits réservés.</p>
+        <p>&copy; 2025 | Manzixinos. Tous droits réservés.</p>
         <a href="https://www.instagram.com/texturesparmanzinos/"><i class="fa-brands fa-instagram" style="color: #000000;" style="height: 100px;"></i></a>
     </footer>
     <script src="script.js"></script>
