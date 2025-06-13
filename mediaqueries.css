@@ -8,4 +8,73 @@
     }
 }
 
-@media screen and (max-width: 1490px){}
+@media screen and (max-width: 1490px){
+    nav {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .quote {
+        top: 700px;
+        height: 190px;
+    }
+    .overlay-logo {
+        top: 480px;
+        height: 190px;
+    }
+}
+
+/* PHONE */
+
+ @media screen and (max-width: 430px) {
+    nav {
+        /* border: solid 1px black; */
+    }
+    .menu-links {
+        background-color: rgba(95, 111, 84, 0.5);
+    }
+    .main-picture {
+        max-height: 800px;
+    }
+    .quote {
+        top: 220px;
+        height: 200px;
+        font-size: 13px;
+    }
+    .overlay-logo {
+        top: 110px;
+        height: 190px;
+        height: 90px;
+        width: auto;
+    }
+    .about-img-1 {
+        height: 150px;
+    }
+    .services ul {
+        list-style: none;
+    }
+    #contact-form {
+        width: 310px;
+    }
+    input[type=text] {
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        height: 50px;
+    }
+    input[type=email] {
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        height: 50px;
+    } form textarea {
+        border-radius: 4px;
+        cursor: pointer;
+        height: 90px;
+        padding: 12px 20px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}

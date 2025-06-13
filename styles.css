@@ -124,7 +124,6 @@ RGB: rgba(95,111,84,255) */
 
 section {
   width: 100%;
-  background-color: beige;
   padding: 60px 20px; /* adjust for visual spacing */
   box-sizing: border-box;
 }
@@ -334,7 +333,6 @@ nav li {
 /* HEADER SECTION */
 
 .hero {
-    background-color: beige;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 20px;
@@ -345,7 +343,6 @@ nav li {
 /* ABOUT SECTION */
 
 #about {
-  background-color: beige;
   width: 100%;
 }
 
@@ -388,7 +385,6 @@ nav li {
     /* margin: auto;
     padding: auto; */
     text-align: center;
-    background-color: beige;
 }
 
 .about-paragraphs {
@@ -447,7 +443,6 @@ nav li {
 
 .services {
     padding-bottom: 20px;
-    background-color: beige;
     padding-top: 30px;
 }
 
@@ -458,7 +453,6 @@ nav li {
 /* PORTFOLIO-GALERIE SECTION */
 
 .portfolio {
-    background-color: beige;
     padding-top: 10px;
 }
 
@@ -537,10 +531,6 @@ img.displaySlide {
 
 /* CONTACT SECTION */
 
-.contact {
-    background-color: rgba(245, 245, 220, 0.5);
-}
-
 #contact {
     height: 50vh;
     display: flex;
@@ -565,22 +555,18 @@ input textarea button {
 }
 
 input[type=text] {
-    /* padding: 12px 20px; */
+    padding: 12px 20px;
     margin: 8px 0;
-    /* display: inline-block; */
     border: 1px solid #000000;
     border-radius: 4px;
-    /* box-sizing: border-box; */
     height: 50px;
 }
 
 input[type=email] {
-    /* padding: 12px 20px; */
+    padding: 12px 20px;
     margin: 8px 0;
-    /* display: inline-block; */
     border: 1px solid #000000;
     border-radius: 4px;
-    /* box-sizing: border-box; */
     height: 50px;
 }
 
@@ -589,10 +575,7 @@ form textarea {
     border-radius: 4px;
     cursor: pointer;
     height: 90px;
-    /* text-align: center; */
     padding: 12px 20px;
-    /* box-sizing: border-box; */
-    /* resize: none; */
 }
 
 form button {
