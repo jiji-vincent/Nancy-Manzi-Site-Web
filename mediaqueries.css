@@ -28,9 +28,6 @@
 /* PHONE */
 
  @media screen and (max-width: 430px) {
-    nav {
-        /* border: solid 1px black; */
-    }
     .menu-links {
         background-color: rgba(95, 111, 84, 0.5);
     }
